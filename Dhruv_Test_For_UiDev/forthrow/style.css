@@ -1,0 +1,124 @@
+.parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.item {
+  width: 40%;
+  padding: 2em;
+  background: #2e2e2e;
+}
+
+.last {
+  padding: 4em;
+  width: 60%;
+  color: #414141;
+  background-color: #00BAF0;
+  background: -webkit-gradient(linear, right top, left top, from(#f46b45), to(#eea849));
+  background: linear-gradient(to left, #f46b45, #eea849);
+}
+
+@media screen and (max-width: 600px) {
+  .parent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+  }
+  .item {
+    width: 100%;
+  }
+}
+
+.content {
+  display: table;
+  font-size: 18px;
+}
+
+.content:before {
+  border-top: 1.5px solid #363535;
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 0.5em;
+  width: 15%;
+}
+
+.content .paracontent {
+  font-size: 0.8vw;
+  color: #6e6e6e;
+}
+
+.parent2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.item2 {
+  width: 50%;
+  padding: 2em;
+}
+
+.last2 {
+  padding: 2em;
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .parent2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .item2 {
+    width: 100%;
+  }
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.mcard {
+  -webkit-border-before: 2px solid #363535;
+          border-block-start: 2px solid #363535;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding: 7%;
+  color: #363535;
+}
+
+.cbutton {
+  padding-bottom: 1%;
+  cursor: pointer;
+  text-align: left;
+  width: 70%;
+  font-size: 1vw;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: #363535;
+}
+
+.arrow {
+  font-size: 2vw;
+}
+/*# sourceMappingURL=style.css.map */

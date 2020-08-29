@@ -1,0 +1,117 @@
+  $x: rgb(54, 53, 53);
+  
+  .parent {
+    display: flex;
+    flex-flow: row wrap; 
+  }
+  
+  .item {
+    width: 40%;
+    padding: 2em;
+    background: rgb(46, 46, 46);
+  }
+  
+  .last {
+    padding: 4em;
+    width: 60%;
+    color: rgb(65, 65, 65);
+    background-color: #00BAF0;
+    background: linear-gradient(to left, #f46b45, #eea849);
+  }
+  
+  @media screen and (max-width: 600px){
+    
+    .parent {
+      flex-direction: column;  
+        flex-flow: row wrap;
+    }
+    
+    .item {
+      width: 100%;
+    }
+ 
+  }
+  .content {
+    display: table;
+    font-size: 18px;
+    &:before{
+      border-top: 1.5px solid $x;
+      content: '';
+      display: table-cell;
+      position: relative;
+      top: 0.5em;
+      width: 15%;
+      
+    }
+    .paracontent{
+        font-size: 0.8vw;
+        color:rgb(110, 110, 110);
+    }
+  
+}
+
+
+
+.parent2 {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .item2 {
+    width: 50%;
+    padding: 2em;
+  }
+  
+  .last2 {
+    padding: 2em;
+    width: 50%;
+
+  }
+  
+  @media screen and (max-width: 600px){
+    
+    .parent2 {
+      flex-direction: column;  
+    }
+    
+    .item2 {
+      width: 100%;
+    }
+ 
+  }
+
+  .dot {
+    height: 12px;
+    width: 12px;
+    background-color:white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .mcard{
+    border-block-start: 2px solid $x;
+    background: rgba(0,0,0,0.1);
+    border-radius: 2px;
+    padding: 7%;
+    color: $x;
+//     display: inline-block;
+  
+}
+
+.cbutton{
+   
+    padding-bottom:1%;
+    cursor: pointer;
+    text-align: left;
+    width: 70%;
+    font-size:1vw;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 2px;
+    color: $x;
+   
+}
+.arrow {
+    font-size: 2vw;
+  }

@@ -1,0 +1,50 @@
+.cero {
+  padding: 10% 45% 10% 16%;
+  background: #F0F0F0;
+}
+
+.maincard {
+  -webkit-border-before: 3px solid #f46b45;
+          border-block-start: 3px solid #f46b45;
+  background: white;
+  border-radius: 2px;
+  padding: 7%;
+  color: #363535;
+}
+
+.ccontent {
+  display: table;
+  font-size: 2vw;
+}
+
+.ccontent:before {
+  border-top: 1.5px solid #363535;
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 0.5em;
+  width: 8%;
+}
+
+.ccontent .paracontent {
+  font-size: 0.8vw;
+  color: #6e6e6e;
+}
+
+.cerobutton {
+  margin-left: 2.2vw;
+  padding-bottom: 1%;
+  cursor: pointer;
+  word-spacing: 0.1vw;
+  width: 40%;
+  font-size: 1vw;
+  background: #f46b45;
+  border: 1px solid #f46b45;
+  border-radius: 2px;
+  color: white;
+}
+
+.arrow {
+  font-size: 2vw;
+}
+/*# sourceMappingURL=style.css.map */

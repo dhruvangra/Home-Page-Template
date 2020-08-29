@@ -1,0 +1,48 @@
+.parfoot {
+    display: flex;
+    width: 100%;
+    background-color: #00BAF0;
+    background: linear-gradient(to left, #f46b45, #eea849); 
+    padding: 20px 0px ;
+ }
+  
+  .itfoot {
+    width: 60%;
+    padding: 4em;
+
+  }
+  
+  .lfoot {
+      width:40%;
+    color: #222;
+    text-align: center;
+    margin-right: 10%;
+  }
+  
+  @media screen and (max-width: 600px){
+    
+    .parfoot {
+      flex-direction: column;  
+    }
+    
+    .itfoot {
+      width: auto;
+    }
+    
+
+    
+  }
+   $x:rgba(0,0,0,0.1);
+  .fbutton{
+   
+    padding-bottom:1%;
+    cursor: pointer;
+   
+    width: 50%;
+    font-size:1vw;
+    background: $x;
+    border: 1px solid $x;
+    border-radius: 2px;
+    color: rgb(54, 53, 53);
+   
+}

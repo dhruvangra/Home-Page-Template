@@ -1,0 +1,57 @@
+
+.cero{
+   padding: 10% 45% 10% 16%;
+   background: #F0F0F0;
+
+
+}
+ $x:rgb(54, 53, 53);
+
+.maincard{
+    border-block-start: 3px solid #f46b45;
+    background: white;
+    border-radius: 2px;
+    padding: 7%;
+    color: $x;
+  
+}
+
+.ccontent {
+    display: table;
+    font-size:2vw;
+    &:before{
+      border-top: 1.5px solid $x;
+      content: '';
+      display: table-cell;
+      position: relative;
+      top: 0.5em;
+      width: 8%;
+      
+    }
+    .paracontent{
+        font-size: 0.8vw;
+        color:rgb(110, 110, 110);
+    }
+  
+}
+ $y:#f46b45;
+ 
+.cerobutton{
+    margin-left: 2.2vw;
+    padding-bottom:1%;
+    cursor: pointer;
+    word-spacing: 0.1vw;
+    width: 40%;
+    font-size:1vw;
+    background: $y ;
+    border: 1px solid $y;
+    border-radius: 2px;
+    color: white;
+
+    
+}
+.arrow {
+    font-size: 2vw;
+  }
+  
+

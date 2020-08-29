@@ -1,0 +1,80 @@
+.par {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin-top: 8vw;
+}
+
+.it {
+  width: 35%;
+  padding: 2em;
+  color: #ffffff;
+}
+
+.l {
+  width: 65%;
+  padding-left: 4vw;
+  padding-right: 10vw;
+  color: #222;
+}
+
+@media screen and (max-width: 600px) {
+  .par {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .it {
+    width: 100%;
+  }
+}
+
+.videocard {
+  border-radius: 2px;
+  color: #363535;
+  -webkit-box-shadow: 4px 4px 4px 4px #b3afaf;
+          box-shadow: 4px 4px 4px 4px #b3afaf;
+  padding-bottom: 20%;
+}
+
+.videocontent {
+  padding: 10px;
+}
+
+.par2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.it2 {
+  width: 50%;
+  padding: 2em;
+  color: #363535;
+}
+
+.l2 {
+  color: #363535;
+}
+
+@media screen and (max-width: 600px) {
+  .par2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .it2 {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

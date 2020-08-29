@@ -1,0 +1,76 @@
+$x:rgb(54, 53, 53);
+.par {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 8vw;
+  }
+  
+  .it {
+    width: 35%;
+    padding: 2em;
+    color: #ffffff;
+    
+  }
+  
+  .l {
+      width: 65%;
+   padding-left: 4vw;
+   padding-right: 10vw;
+    color: #222;
+  }
+  
+  @media screen and (max-width: 600px){
+    
+    .par {
+      flex-direction: column;  
+    }
+    
+    .it {
+      width: 100%;
+    }
+    
+    
+  }
+
+  .videocard{
+    border-radius: 2px;
+    color: $x;
+    box-shadow: 4px 4px 4px 4px #b3afaf;
+    padding-bottom: 20%;
+}
+.videocontent{
+    padding: 10px;
+}
+
+
+
+.par2 {
+    display: flex;
+    flex-flow: row wrap;
+
+  }
+  
+  .it2 {
+    width: 50%;
+    padding: 2em;
+    color: $x;
+
+  }
+  
+  .l2 {
+    color: $x;
+
+  }
+  
+  @media screen and (max-width: 600px){
+    
+    .par2 {
+      flex-direction: column;  
+    }
+    
+    .it2 {
+      width: 100%;
+    }
+    
+    
+  }
